@@ -4,9 +4,9 @@
 
 ## Growth hypothesis
 
-**The problem:** FinWise's biggest growth problem is that trial users don't reach the "my money, finally clear" moment before their trial ends, because they don't reach the value soon enough — the value shows up too late, so they leave before they see why it's worth paying for.
+**The problem:** FinWise's biggest growth problem is that trial users don't get to see where their money is going before their trial ends, because they don't reach the value soon enough — the value shows up too late, so they leave before they see why it's worth paying for.
 
-**The hypothesis:** If we get trial users to the "my money, finally clear" moment within their first week, then trial-to-paid conversion will rise from 2% to 3%, with users converting in under 7 days, because users who see their money clearly understand why FinWise is worth paying for.
+**The hypothesis:** If we get trial users to see where their money is going within their first week, then trial-to-paid conversion will rise from 2% to 3%, with users converting in under 7 days, because users who see their money clearly understand why FinWise is worth paying for.
 
 _Aha action to be defined precisely in Module 2._
 
@@ -39,7 +39,7 @@ _____
 **Loop type:** Product-led referral loop (word of mouth)
 
 ```
-New trial user → reaches Aha ("my money, finally clear")
+New trial user → sees where their money goes (Aha)
       ↑                          ↓
  joins FinWise          converts / stays active
       ↑                          ↓
