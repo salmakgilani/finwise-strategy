@@ -4,12 +4,14 @@
 
 ## Growth hypothesis
 
-**The problem:** FinWise's biggest growth problem is that trial users don't reach the "my money, finally clear" moment before their trial ends, because _[friction — e.g. setup takes too long / value shows up too late]_.
+**The problem:** FinWise's biggest growth problem is that trial users don't reach the "my money, finally clear" moment before their trial ends, because they don't reach the value soon enough — the value shows up too late, so they leave before they see why it's worth paying for.
 
-**The hypothesis:** If we get trial users to _[Aha action — e.g. linked an account and saw a categorized spending breakdown]_ within _[X]_ days, then trial-to-paid conversion will rise from 2% to _[Y]_%, because users who see their money clearly understand why FinWise is worth paying for.
+**The hypothesis:** If we get trial users to the "my money, finally clear" moment within their first week, then trial-to-paid conversion will rise from 2% to 3%, with users converting in under 7 days, because users who see their money clearly understand why FinWise is worth paying for.
+
+_Aha action to be defined precisely in Module 2._
 
 **Evidence for:**
-- Conversion has dropped over the past year _(from [__]% to [__]%)_
+- Conversion has dropped over the past year
 - Current trial-to-paid conversion is ~2%
 
 **Evidence against / what would prove me wrong:**
