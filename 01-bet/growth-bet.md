@@ -4,28 +4,30 @@
 
 ## Growth hypothesis
 
-**The problem:** FinWise's biggest growth problem is that trial users don't get to see where their money is going before their trial ends, because they don't reach the value soon enough — the value shows up too late, so they leave before they see why it's worth paying for.
+**The problem:** FinWise's biggest growth problem is that trial-to-paid conversion has been stuck at ~2% for 13 straight months, because using the product during the trial isn't turning into a reason to pay — more trial users are importing data and using modeling, yet conversion hasn't moved.
 
-**The hypothesis:** If we get trial users to see where their money is going within their first week, then trial-to-paid conversion will rise from 2% to 3%, with users converting in under 7 days, because users who see their money clearly understand why FinWise is worth paying for.
+**The hypothesis:** If we find the trial action that actually predicts paying (not just any product use) and get trial users to it within their first week, then trial-to-paid conversion will rise from 2% to 3%, because users who reach that moment see why FinWise is worth paying for.
 
 _Aha action to be defined precisely in Module 2._
 
-**Evidence for:**
-- Conversion has dropped over the past year
-- Current trial-to-paid conversion is ~2%
+**Evidence for** _(source: [trial funnel data, Oct 2023 – Oct 2024](../data/finwise-trial-funnel.csv))_:
+- Trial → paid is the biggest drop-off in the funnel: 98% of trials (6,296 of 6,424) don't convert. This sits in the **Revenue** stage.
+- Trial → paid stayed between 1.87% and 2.08% every month: a long-standing ceiling, not a recent decline.
 
 **Evidence against / what would prove me wrong:**
-- Users who *do* reach the Aha moment also convert poorly → the problem is pricing/paywall, not activation
-- The signup mix shifted toward lower-intent users (channel change) → the problem is acquisition quality, not the product
-- A pricing or paywall change happened during the year and explains the drop
+- Modeling % rose from ~20% to ~49% and Import Data % from ~40% to ~44% (first 3 vs. last 3 months), but trial → paid stayed flat → product use alone may not be what drives paying _(assumes these columns measure trial-user behavior; definitions not confirmed)_
+- FinWise runs a reverse trial, so trial users already get full premium access → the issue may be what they experience, not whether they can see it
+- Users who *do* reach the Aha moment may also convert poorly → the problem would be pricing/paywall, not activation
 
-_To check in Module 4: split conversion into activated vs. non-activated users, month over month._
+_Correction: an earlier draft said conversion had dropped over the year. The data shows it has been flat at ~2%._
+
+_To check in Module 4: compare conversion for trial users who did vs. didn't import data / use modeling (needs user-level data)._
 
 _____
 
 ## The bet
 
-**Where I'm focusing:** Activation, the path from signup to the Aha moment. Are users seeing the value?
+**Where I'm focusing:** The trial → paid step, by finding the trial action that predicts paying and getting users there in week one.
 
 **Not doing:**
 - Changing pricing or packaging (that's Module 6)
@@ -36,18 +38,16 @@ _____
 
 ## Growth loop
 
-**Loop type:** Product-led referral loop (word of mouth)
+**Loop type:** Collaboration loop
 
-```
-New trial user → sees where their money goes (Aha)
-      ↑                          ↓
- joins FinWise          converts / stays active
-      ↑                          ↓
- invited / hears  ←  shares or refers FinWise
-```
+![FinWise collaboration growth loop](collaboration-loop.svg)
 
-Faster activation speeds up the whole loop: more users reach value → more convert and stay → more refer → more new trial users.
+**Why collaboration first:** The bottleneck is the 98% of trials that don't pay, not visits, so a content loop that feeds acquisition doesn't address it. With only ~10 new paid users a month (and more churned than gained every month), there aren't enough happy customers to power a referral loop. Collaboration works on both: an owner who brings their accountant, bookkeeper, or co-founder into the trial makes FinWise part of how the business runs, which should lift conversion, and each person invited is a potential new user.
 
-_(diagram image to be uploaded)_
+- **Trigger:** A trial owner hits a task that needs someone else, like reviewing a forecast or closing the month.
+- **Stages:** Owner invites a peer → they work together on shared data → the business converts when the trial ends.
+- **Outcome that restarts the loop:** An accountant works with many small businesses and brings other clients in. They start trials and hit the trigger themselves.
+
+_Assumptions: invites and shared workspaces are treated as features to build or test; accountants serving several small-business clients is unconfirmed. First test: do trial businesses that invite someone convert above the ~2% baseline?_
 
 _____
