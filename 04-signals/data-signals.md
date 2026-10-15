@@ -11,6 +11,18 @@
 **What the funnel data revealed** _(source: [trial funnel data, Oct 2023 – Oct 2024](../data/finwise-trial-funnel.csv))_:
 - **Conversion is a ceiling, not a decline.** Trial → paid held between 1.87% and 2.08% in all 13 months.
 - **Usage rose, value didn't follow.** Modeling use nearly doubled (25% → 47%, first half vs. second half) while sessions got shorter (11.5 → 9.3 min, only 5–8 min in Jul–Sep) and 1-year churn rose from 19 to 29 a month.
+**Pattern by metric** _(dashboard: [FinWise Trial Funnel](https://claude.ai/artifact/6bnfDbjXqNUqtvh2M5Fai5))_:
+
+| Metric | Pattern |
+|---|---|
+| Trial-to-Paid Conversion Rate | **Ceiling.** Holds between 1.87% and 2.08% in all 13 months, even as trials swing from 321 to 644 a month. |
+| Financial Modeling Feature Usage % | **Doesn't fit cleanly: rising, with big swings.** 10.8% (Nov 2023) to 58.3% (Apr 2024), down to ~37% (Jun), back to 58.1% (Sep), then 36.0% (Oct). Flagged because usage nearly doubled while conversion stayed at its ceiling. |
+| Get Started Import Feature Usage % | **Ceiling.** Grew from ~30% (Jan–Mar 2024) to ~40% (Apr–Jun), then flattened at 41–45% (Jul–Oct). More than half of users still never import. |
+| Average Session Duration | **Cliff.** Held at 11–14 min from Dec to Jun, then dropped from 12.1 min (Jun 2024) to 7.0 (Jul) and 5.1 (Aug). Hasn't recovered (7.9 and 9.0 min since). |
+| Average Sessions Per User | **Doesn't fit cleanly: rising.** 3 (Jan 2024) to 8–9 by Aug–Oct, possibly flattening at 9. Flagged because, with the session-duration cliff, users come back more often but stay briefly. |
+
+_Across all five: from July 2024, sessions per user rose to 7–9, modeling stayed at 47–58%, and session length dropped to 5–8 min, while conversion stayed flat at ~2%._
+
 - **The real problem behind the headline metric:** trial users try the forecast but don't stay with it long enough to get an answer they act on. All the indicators below sit inside the trial, before the paywall, where the Revenue-stage drop-off is decided.
 
 _____
