@@ -25,6 +25,14 @@
 
 _Across all five: from July 2024, sessions per user rose to 7–9, modeling stayed at 47–58%, and session length dropped to 5–8 min, while conversion stayed flat at ~2%._
 
+**Does the leading indicator correlate with conversion? No.** Import usage (the closest proxy in this data for "imported data in session 1") and trial → paid have a correlation of −0.05. Indexed to their 13-month averages, import usage swung from 78 to 116 while conversion stayed between 94 and 105. Months with more importing didn't produce more paid users.
+
+**Hypothesis: ↻ Revised.** Exercise 1 started from "users don't see FinWise's value, and conversion has dropped over the year." The data contradicts both parts: conversion is a flat Ceiling, not a decline, and users do find the features (import 41–45%, modeling 47–58%, sessions per user up from 3 to 9).
+
+**What the data pattern actually reveals:** FinWise has a value problem disguised as an engagement success. Every activity metric went up: users import, model, and come back more often. Conversion stayed capped at ~2% anyway. The session-duration Cliff in July 2024 (12.1 → 5.1 min) is the tell: users return more often but leave within minutes, consistent with glancing at a number rather than getting an answer they can act on. The real problem isn't getting users to use FinWise. It's that using it doesn't end in a decision they'd pay for: "can I make payroll," "can I afford this hire." Until the product turns activity into an outcome, pushing more activity won't move conversion.
+
+_Implication for the North Star: import and modeling are the activities that rose without lifting conversion. This is monthly data, not user-level, so it doesn't rule the North Star out, but "first modeling output" should mean an output that answers a real question, and Module 5 should test whether reaching it predicts paying._
+
 _____
 
 ## Leading indicators
