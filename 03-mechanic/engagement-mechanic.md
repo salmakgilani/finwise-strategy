@@ -27,4 +27,6 @@ _____
 
 [Clickable wireframe: forecast confidence habit loop](https://claude.ai/artifact/8FCBDDiyfDqVp3nJPMCzZq): three screens, (1) trigger on the home screen, (2) weekly review with the confidence bar moving Medium → High, (3) investment step to add upcoming items and invite an accountant. Sample business data is illustrative.
 
+![FinWise forecast confidence habit loop: trigger, action and reward, investment](habit-loop-wireframe.png)
+
 _____
