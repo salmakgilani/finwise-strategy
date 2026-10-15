@@ -14,6 +14,8 @@ _____
 
 [Clickable onboarding prototype](https://claude.ai/artifact/NQL1KHBo1K1i2e4mPmoanA): sign-up to Aha in 4 screens.
 
+![FinWise onboarding flow: 4 screens from sign-up to Aha](onboarding-flow.png)
+
 | # | Screen | Its single job | The one action |
 |---|---|---|---|
 | 1 | What do you need to know? | Decide which question the forecast answers (one-question personalization quiz) | Pick: cover payroll / afford a hire / how long cash lasts |
