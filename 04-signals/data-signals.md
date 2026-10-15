@@ -11,6 +11,8 @@
 **What the funnel data revealed** _(source: [trial funnel data, Oct 2023 – Oct 2024](../data/finwise-trial-funnel.csv))_:
 - **Conversion is a ceiling, not a decline.** Trial → paid held between 1.87% and 2.08% in all 13 months.
 - **Usage rose, value didn't follow.** Modeling use nearly doubled (25% → 47%, first half vs. second half) while sessions got shorter (11.5 → 9.3 min, only 5–8 min in Jul–Sep) and 1-year churn rose from 19 to 29 a month.
+- **The real problem behind the headline metric:** trial users try the forecast but don't stay with it long enough to get an answer they act on. All the indicators below sit inside the trial, before the paywall, where the Revenue-stage drop-off is decided.
+
 **Pattern by metric** _(dashboard: [FinWise Trial Funnel](https://claude.ai/artifact/6bnfDbjXqNUqtvh2M5Fai5))_:
 
 | Metric | Pattern |
@@ -22,8 +24,6 @@
 | Average Sessions Per User | **Doesn't fit cleanly: rising.** 3 (Jan 2024) to 8–9 by Aug–Oct, possibly flattening at 9. Flagged because, with the session-duration cliff, users come back more often but stay briefly. |
 
 _Across all five: from July 2024, sessions per user rose to 7–9, modeling stayed at 47–58%, and session length dropped to 5–8 min, while conversion stayed flat at ~2%._
-
-- **The real problem behind the headline metric:** trial users try the forecast but don't stay with it long enough to get an answer they act on. All the indicators below sit inside the trial, before the paywall, where the Revenue-stage drop-off is decided.
 
 _____
 
