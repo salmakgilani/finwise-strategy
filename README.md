@@ -1,8 +1,8 @@
 # FinWise, A Product-Led Growth Strategy
 
-> _(one-line growth thesis)_
+> FinWise users are active but not paying, so the growth bet is turning activity into a cash answer worth paying for.
 
-_Your name · Product Experimentation · date_
+_salmakgilani · Product Experimentation · October 2026_
 
 This repo is my final project for the **Product Experimentation Certification** — a growth strategy for FinWise. One folder per module; this README is **The Story** that ties them together, and the source for the pitch you generate with the **Final Project Deliverables Prompt Generator**.
 
@@ -25,11 +25,11 @@ This repo is my final project for the **Product Experimentation Certification** 
 
 ## The Story
 
-**Growth thesis:** _one line — the through-line from bet to model._
+**Growth thesis:** Fix trial-to-paid by getting users to a cash answer they trust in week one, build a weekly habit around it, and put the paywall right where they need it.
 
-- **One friction.** _the hard part; what fought you._
-- **One Aha.** _the moment the strategy clicked._
-- **Takeaways.** _what stuck about experimentation as a system._
+- **One friction.** My first hunch was wrong: conversion wasn't dropping, it was flat, and I had to rewrite my hypothesis after looking at the data.
+- **One Aha.** Usage went up but sessions got shorter and conversion didn't move, so it was a value problem, not an engagement problem.
+- **Takeaways.** Check the data before trusting a hunch, pick a leading indicator you can measure in weeks, and test one bet at a time.
 
 ---
 
